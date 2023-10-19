@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--Declares HTML5 document-->
+<html lang="en">
+<!--declares language to be english-->
+
+<head>
+	<meta charset="UTF-8">
+	<!--declares character-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--makes code optimized for small screens, as well.-->
+	
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<!--preload font file-->
+	<title>Contact Pasta Amore</title>
+	<!--title shows up in tab-->
+	<meta name="keywords" content="contact pasta amore,contact us, hours, pasta amore address, contact form, pasta amore italian restauraunt food, italian Restauraunt, food, family-friendly, italian recipes, italian menu, menu, italy, italian, restauraunt vision, restauraunt mission, budget-friendly, family restauraunt, food">
+	<meta name="description" content="italian family restauraunt">
+	<!--meta description for SEO-->
+	<meta name="author" content="Ashley K Lundy">
+	<script src="https://kit.fontawesome.com/39660c6abe.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/39660c6abe.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header>
+		<a href="index.html"> <img class="logo" src="images/pasta_amore_logo.png" alt="pasta amore logo" width="600" height="70"></a>
+		<br>
+	</header>
+	
+	<!--logo header-->
+	<nav class="navbar">
+		<ul class="navlist">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<section>
+		<h1>CONTACT US</h1>
+		<h2 class="hours">HOURS: Monday-Sunday<br>
+                11:00am-11:30pm</h2>
+		<h3 class="restaraunttitle">Pasta Amore Restauraunt</h3>
+		<div class="footerinfo"> <address class="address">1227 S River Rd. Sylve, NC 28723</address> phone:<a class="tel" href="tel+15555554118">555-555-4119</a> email:<a class="email" href="mailto:past.amore@outlook.com">pasta.amore@outlook.com</a>
+			<br><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-solid fa-location-dot"></i> <i class="fa-brands fa-vimeo"></i> </div>
+	</section>
+	<!-- HTML code for the contact form -->
+	<form id="contact-form" action="send.php" method="post">
+		<div class="form-group">
+			<label for="name">Name</label>
+			<input type="text" id="name" name="name" placeholder="Your name.." required> </div>
+		<div class="form-group">
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" placeholder="Your email.." required> </div>
+		<div class="form-group">
+			<label for="subject">Subject</label>
+			<input type="text" id="subject" name="subject" placeholder="Your subject.." required> </div>
+		<div class="form-group">
+			<label for="message">Message</label>
+			<textarea id="message" name="message" placeholder="Write something.." rows="5" required></textarea>
+		</div>
+		<div class="form-group">
+			<button type="submit" id="submit">Send</button>
+		</div>
+	</form>
+	<footer class="footer"> &copy; Pasta Amore Restauraunt <address> 1227 S River Rd. Sylva, North Carolina</address> Phone Number: <a href="tel:+5555554118">555-555-4119</a> Email Address: <a href="mailto:pasta.amore@outlook.com">Email</a> <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-solid fa-location-dot"></i> <i class="fa-brands fa-vimeo"></i> </footer>
+</body>
+
+</html>
